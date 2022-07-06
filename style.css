@@ -1,3 +1,198 @@
 body{
-    font-family: 'Black Han Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    margin: 0%;
 }
+.first{
+    height: 25%;
+    width: 100%;
+    background-image: url(images/donation13.jpg);
+    color: white;
+    text-align: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding: 100px 0 150px 0;
+}
+p{
+    color:#707070 ;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+}
+#white{
+    color: white;
+}
+h1{
+    font-size: 50px;
+    font-weight: 900;
+} 
+h2{
+    font-size: 30px;
+    font-weight: 900;
+}
+.donate{
+text-decoration: none;
+padding: 10px;
+color: white;
+background-color: #FF5959;
+border-radius: 5px;
+}
+.second
+{
+    padding: 100px 0 50px 0;
+    text-align: center;
+}
+.third{
+display: flex;
+    color: #707070;
+    justify-content: center;
+    
+}
+.amount{
+    text-align: center;
+    position: relative;
+    top: 50%;
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+    background-color:rgb(248, 241, 241);
+    border-style: solid;
+    border-color: rgb(248, 241, 241);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3px;
+    font-weight: 700;
+}
+.amount p{
+    font-size: 20px;
+}
+.amount#red{
+    border-style: solid;
+    border-color: #FF5959;
+    border-width: 2px;
+    background-color: #FCD2D1;
+}
+#redtext{
+    color: #FF5959;
+}
+hr{
+    background: rgb(206, 201, 201);
+    height: 1px;
+    border: none;
+    width:50%;
+    
+}
+.fourth{
+    text-align: center;
+    padding: 5% 0 10% 0;
+}
+#lightgray{
+    color: rgb(207, 186, 186);
+}
+.fifth{
+    text-align: center;
+    justify-content: center;
+}
+.fifth-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+.plan1{
+    background-color: 	#f0f8ff;
+    height: 230px;
+    width: 230px;
+    text-align: left;
+    position: relative;
+    top: 50%;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
+}
+.plan2{
+    background-color: #ffe4e1;
+    height: 230px;
+    width: 230px;
+    text-align: left;
+    position: relative;
+    top: 50%;
+    margin: 20px;
+    border-radius: 5px;
+    padding: 20px;
+}
+.plan3{
+    background-color: #ffefd5;
+    height: 230px;
+    width: 230px;
+    text-align: left;
+    position: relative;
+    top: 50%;
+    margin: 20px;
+    border-radius: 5px;
+    padding: 20px;
+}
+.sixth{
+    display: flex;
+    padding: 5%;
+}
+.half-width{
+    width: 50%;
+    padding: 5% 5% 0 5%;
+}
+.half-width img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+.seventh{
+    text-align: center;
+    padding: 100px 0 50px 0;
+}
+.subscription{
+margin: auto;
+    background-color: #FFF4D6; 
+    display: flex;
+    width: 60%;
+    height: 150px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+input[type="email"]
+{
+    background-color: #D9DBE1;
+    width: 200px;
+    height: 30px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    padding-left: 10px;
+    font-size: 12px;
+    color: #AA9F9F;
+}
+input[type="button"]
+{
+    text-decoration: none;
+    padding: 10px;
+    color: #FFFFFF;
+    background-color: #FF5959;
+    padding: 5px;
+    position: relative;
+    border-radius: 0 5px 5px 0;
+    width: 90px;
+    height: 32px;
+    border: none;
+    font-size: 12px;
+    }
+    .eighth{
+        background-color:#101420;
+        padding: 35px;
+        margin: 0;
+        color:#FF5959;
+        text-align: center;
+        font-family: 'Lobster', cursive;
+      }
+      .eighth p{
+        color: #D9DBE1;
+        font-size: 10px;
+        font-family: 'Open Sans', sans-serif;
+      }
