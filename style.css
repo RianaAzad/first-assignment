@@ -74,6 +74,20 @@ display: flex;
 #redtext{
     color: #FF5959;
 }
+.otheramount{
+    border-bottom-color: #cfc9c9;
+    border-top: white;
+    border-right: white;
+    border-left: white;
+    margin:5%;
+    width: 50%;
+    height: 30px;
+}
+input[type="text"]::placeholder{
+    color:#cfc9c9;
+    text-align: center;
+    font-size: 15px;
+}
 hr{
     background: rgb(206, 201, 201);
     height: 1px;
